@@ -4,6 +4,17 @@ body{
     background-color: #cfcfcf;
 }
 
+.headerLogoContainer
+{
+    padding: 0 10px;
+    background-color: blueviolet;
+    margin-right:20px;
+}
+.headerLogo
+{
+    margin-top: -10px;
+}
+
 .mdl-layout__header
 {
     background-color: #212121;

@@ -1,4 +1,11 @@
-# Kentico Cloud Sample Angular App
+# Kentico Cloud Sample Angular App - Purrthetic Prints
+
+This project is a copy of the [Kentico Cloud Sample Angular App](https://github.com/Enngage/KenticoCloudSampleAngularApp). 
+
+It has the follwoing modifications:
+- [Ng-Box](https://github.com/mixalistzikas/ngbox) integration
+- Super awesome content (lazy cats)
+
 
 This project showcases the use of `Kentico Cloud Delivery Typescript SDK` 
 
