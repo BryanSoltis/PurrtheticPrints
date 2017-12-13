@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #cfcfcf;
+}
+
+.mdl-layout__header
+{
+    background-color: #212121;
+}
+
+.pageText{
+    font-size: 20px;
+    margin:20px;
+}
+
+.postersContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.posterItem{
+    background-color: #808080;
+    margin:20px;
+    padding:20px;
+    height:625px;
+    width: 300px;
+    color:#FFF;
+    position: relative;
+}
+
+.posterImage{
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.posterDescription{
+    margin-top:20px;
+    font-size: larger;
+}
+
+.posterOrder{
+    width:100px;
+    padding:10px;
+    margin:10px;
+    background-color: blueviolet;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right:10px;
+    cursor: pointer;
+}
+

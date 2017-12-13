@@ -1,0 +1,37 @@
+<ngbox></ngbox>
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+
+      <!-- Title -->
+      <span class="mdl-layout-title">{{title}}</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+    </div>
+  </header>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <div class="pageText">Welcome to Purrthetic Prints, your one-stop shop for truly pathetic cats. </div>
+      <div *ngIf="latestPosters" class="postersContainer" gallerize>
+        <div *ngFor="let poster of latestPosters">
+          <div class="posterItem">
+              <a ng-box src="{{poster.posterimage.assets[0].url}}" title="{{poster.title.text}}" href="">
+                <img src="{{poster.posterimage.assets[0].url}}" class="posterImage" title="{{poster.title.text}}" />
+              </a>
+              
+              
+            <h4>Description</h4>
+            <div class="posterDescription">"{{poster.description.text}}"</div>
+            <!--<h4>{{poster.title.text}}</h4>
+            <h4>Categories:</h4>
+            <div innerHTML="{{poster.getCategories()}}"></div>-->
+            <h4>Testimonials:</h4>
+            <div innerHTML="{{poster.getTestimonials()}}"></div>
+            <div class="posterOrder">Order</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
