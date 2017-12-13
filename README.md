@@ -8,10 +8,11 @@ It has the follwoing modifications:
 - Deployment to Azure Web Apps
 
 THe following article/video helped me get the deploymetn of Angular to Azure Web Apps working:
+
 [Build and Deploy an Angular App from GitHub to Azure Website](https://passos.com.au/build-and-deploy-an-angular-app-from-github-to-azure-website/)
 
 You can view the working demo here:
-[Purrthetic Prints] (http://purrtheticprints.azurewebsites.net/)
+[Purrthetic Prints](http://purrtheticprints.azurewebsites.net/)
 
 *No lazy cats were harmed in the making of this demo.
 
