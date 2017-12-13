@@ -5,6 +5,10 @@ This project is a copy of the [Kentico Cloud Sample Angular App](https://github.
 It has the follwoing modifications:
 - [Ng-Box](https://github.com/mixalistzikas/ngbox) integration
 - Super awesome content (lazy cats)
+- Deployment to Azure Web Apps
+
+THe following article/video helped me get the deploymetn of Angular to Azure Web Apps working:
+[Build and Deploy an Angular App from GitHub to Azure Website](https://passos.com.au/build-and-deploy-an-angular-app-from-github-to-azure-website/)
 
 
 This project showcases the use of `Kentico Cloud Delivery Typescript SDK` 
