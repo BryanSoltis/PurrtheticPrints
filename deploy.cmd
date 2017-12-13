@@ -101,12 +101,14 @@ IF EXIST "%DEPLOYMENT_SOURCE%\package.json" (
 )
 
 :: 3. Angular Prod Build
-IF EXIST "%DEPLOYMENT_SOURCE%/.angular-cli-json" (
-  echo Buidling App in %DEPLOYMETN_SECOURCE%...
-  pushd "%DEPLOYMENT_SOURCE%"
-  call :ExecuteCmd !NPM_CMD! run build
-  IF !ERRORLEVEL! NEQ 0 goto error
-  popd
+IF EXIST "%DEPLOYMENT_SOURCE%/.angular-cli.json" (
+echo Building App in %DEPLOYMENT_SOURCE%…
+pushd "%DEPLOYMENT_SOURCE%"
+call :ExecuteCmd !NPM_CMD! run build
+:: If the above command fails comment above and uncomment below one
+:: call ./node_modules/.bin/ng build –prod
+IF !ERRORLEVEL! NEQ 0 goto error
+popd
 )
 
 :: 1. KuduSync
