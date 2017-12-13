@@ -10,8 +10,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -31,7 +30,10 @@
     "kentico-cloud-delivery-typescript-sdk": "2.0.1",
     "ngbox": "0.0.15",
     "rxjs": "5.4.3",
-    "zone.js": "0.8.18"
+    "zone.js": "0.8.18",
+    "@angular/cli": "1.4.4",
+    "@angular/compiler-cli": "4.4.4",
+    "typescript": "2.4.0"
   },
   "devDependencies": {
     "@angular/cli": "1.4.4",
