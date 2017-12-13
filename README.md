@@ -10,6 +10,12 @@ It has the follwoing modifications:
 THe following article/video helped me get the deploymetn of Angular to Azure Web Apps working:
 [Build and Deploy an Angular App from GitHub to Azure Website](https://passos.com.au/build-and-deploy-an-angular-app-from-github-to-azure-website/)
 
+You can view the working demo here:
+[Purrthetic Prints] (http://purrtheticprints.azurewebsites.net/)
+
+*No lazy cats were harmed in the making of this demo.
+
+# Original project notes
 
 This project showcases the use of `Kentico Cloud Delivery Typescript SDK` 
 
