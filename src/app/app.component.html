@@ -30,7 +30,8 @@
             <div innerHTML="{{poster.getCategories()}}"></div>-->
             <h4>Testimonials:</h4>
             <div innerHTML="{{poster.getTestimonials()}}"></div>
-            <div class="posterOrder">Order</div>
+            <a ng-box src="{{poster.posterimage.assets[0].url}}" title="{{poster.title.text}}" href="">
+            <div class="posterOrder">More info</div></a>
           </div>
         </div>
       </div>

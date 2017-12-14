@@ -4,6 +4,10 @@ body{
     background-color: #cfcfcf;
 }
 
+a:visited{
+    color: white;
+}
+
 .headerLogoContainer
 {
     padding: 0 10px;
